@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "gmM71J8cj9JdEb8K2kkkNxD5LhQoA7v+MsgP8S7e1peH2rmTNxXW0K1ACaib4hKF2VO4BXRme2ju/4gxPE9Q7w==",
+  "success": true,
+  "projectFilePath": "/Users/carlinyahuiraachahui/RiderProjects/test2/PDFProject/PDFProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/carlinyahuiraachahui/.nuget/packages/avalonia/11.0.1/avalonia.11.0.1.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/avalonia.buildservices/0.0.28/avalonia.buildservices.0.0.28.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/avalonia.remote.protocol/11.0.1/avalonia.remote.protocol.11.0.1.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/avalonia.skia/11.0.1/avalonia.skia.11.0.1.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/harfbuzzsharp/2.8.2.3/harfbuzzsharp.2.8.2.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/harfbuzzsharp.nativeassets.linux/2.8.2.3/harfbuzzsharp.nativeassets.linux.2.8.2.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/harfbuzzsharp.nativeassets.macos/2.8.2.3/harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/2.8.2.3/harfbuzzsharp.nativeassets.webassembly.2.8.2.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/harfbuzzsharp.nativeassets.win32/2.8.2.3/harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/skiasharp/2.88.6/skiasharp.2.88.6.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/skiasharp.nativeassets.linux/2.88.3/skiasharp.nativeassets.linux.2.88.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/skiasharp.nativeassets.macos/2.88.6/skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.3/skiasharp.nativeassets.webassembly.2.88.3.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/skiasharp.nativeassets.win32/2.88.6/skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
+    "/Users/carlinyahuiraachahui/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

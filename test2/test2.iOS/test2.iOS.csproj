@@ -19,6 +19,7 @@
     <ItemGroup>
         <PackageReference Include="Avalonia.Controls.ColorPicker" Version="11.0.4" />
         <PackageReference Include="Avalonia.iOS" Version="11.0.4" />
+        <PackageReference Include="QuestPDF" Version="2023.9.0" />
     </ItemGroup>
 
     <ItemGroup>

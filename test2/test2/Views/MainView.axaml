@@ -4,18 +4,68 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:test2.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="test2.Views.MainView"
-             Foreground="White"
-             Background="Green">
+             x:Class="test2.Views.MainView">
   <Design.DataContext>
     <!-- This only sets the DataContext for the previewer in an IDE,
          to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
     <viewModels:MainViewModel />
   </Design.DataContext>
-    <StackPanel VerticalAlignment="Bottom">
-      <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center" />
-      <ColorPicker VerticalAlignment="Bottom" Width="200" 
-                   Color="{ Binding Color}"
-                    />
+    <!-- <StackPanel VerticalAlignment="Bottom"> -->
+    <!--     <ComboBox x:Name="comboBox"> -->
+    <!--     </ComboBox> -->
+    <!--     <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center" /> -->
+    <!--   <ColorPicker VerticalAlignment="Bottom" Width="200"  -->
+    <!--                Color="{ Binding Color}" -->
+    <!--                 /> -->
+    <!-- </StackPanel> -->
+    <StackPanel>
+      <TextBlock Classes="h2">Example of Drag+Drop capabilities</TextBlock>
+
+      <WrapPanel HorizontalAlignment="Center">
+        <StackPanel Margin="8"
+                    MaxWidth="160">
+          <Border Name="DragMeText"
+                  Padding="16"
+                  BorderBrush="{DynamicResource SystemAccentColor}"
+                  BorderThickness="2">
+            <TextBlock Name="DragStateText" TextWrapping="Wrap">Drag Me (text)</TextBlock>
+          </Border>
+          <Border Name="DragMeFiles"
+                  Padding="16"
+                  BorderBrush="{DynamicResource SystemAccentColor}"
+                  BorderThickness="2">
+            <TextBlock Name="DragStateFiles" TextWrapping="Wrap">Drag Me (files)</TextBlock>
+          </Border>
+          <Border Name="DragMeCustom"
+                  Padding="16"
+                  BorderBrush="{DynamicResource SystemAccentColor}"
+                  BorderThickness="2">
+            <TextBlock Name="DragStateCustom" TextWrapping="Wrap">Drag Me (custom)</TextBlock>
+          </Border>
+        </StackPanel>
+
+        <StackPanel Margin="8"
+                    Orientation="Horizontal"
+                    Spacing="16">
+          <Border Name="CopyTarget"
+                  Padding="16"
+                  MaxWidth="260"
+                  Background="{DynamicResource SystemAccentColorDark1}"
+                  DragDrop.AllowDrop="True">
+            <TextBlock TextWrapping="Wrap">Drop some text or files here (Copy)</TextBlock>
+          </Border>
+          <Border Name="MoveTarget"
+                  Padding="16"
+                  MaxWidth="260"
+                  Background="{DynamicResource SystemAccentColorDark1}"
+                  DragDrop.AllowDrop="True">
+            <TextBlock TextWrapping="Wrap">Drop some text or files here (Move)</TextBlock>
+          </Border>
+        </StackPanel>
+      </WrapPanel>
+
+      <TextBlock x:Name="DropState" TextWrapping="Wrap" />
+      <ColorPicker/>
+      <!-- <Button Click="Button_OnClick">Create pdf</Button> -->
     </StackPanel>
 </UserControl>

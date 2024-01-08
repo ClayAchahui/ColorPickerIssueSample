@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="test2/test2/App.axaml" value="test2/test2.Desktop/test2.Desktop.csproj" />
+        <entry key="test2/test2/Styles/ColorPicker.axaml" value="test2/test2.Desktop/test2.Desktop.csproj" />
         <entry key="test2/test2/Views/MainView.axaml" value="test2/test2.Desktop/test2.Desktop.csproj" />
       </map>
     </option>
